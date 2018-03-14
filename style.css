@@ -1,0 +1,152 @@
+*{
+    font-size:30px;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}
+body{
+    margin:0;
+    height:100%;
+}
+div.container{
+    text-shadow: 0 0 20px black;
+    text-align: center;
+    background-size: cover;
+    background-color: #e2b015;
+    background-image: url(_assets-web/imagine-de-fundal.png);
+   
+}
+p.name{
+    font-size: 90px;
+    margin:0px ;
+    text-shadow: 0 0 30px black;
+}
+p.reason{
+    
+    position:relative;
+}
+p.trainers{
+    padding:10px 0px 60px 0px;
+}
+img.the-kit-logo{
+    /* transform: translate(-100%); */
+    position:relative;
+    right:30%
+    
+}
+p.IT{
+    font-size: 60px;
+    font-style: italic;
+    margin: 0px 0px 50px 0px;
+}
+div.leftSideFooter{
+    display:inline-block;
+    position:absolute;
+    left:15%;
+    top:28px;
+}
+div.leftSideFooter p{
+    font-size: 10px;
+    color: white;
+    margin: 0 0 0 0;
+    padding:0;
+   
+}
+footer{
+    background-color: black;
+    position:relative;
+    height:155px;
+}
+div.contacts p{
+    
+    font-size: 10px; 
+    color: white;
+    margin: 5px 5px 5px 5px;
+    padding:0;
+    width:100%;
+}
+div.contacts {
+    text-align: right; 
+    position: relative;
+    right:15%;
+    
+    bottom:60px;
+}
+.icons {
+    
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.icons a {
+    float:left;
+    width: 35px;
+    height: 35px;
+    color: #030000;
+    /* display: inline-block; */
+}
+.icons a.fb{
+    background: url(_assets-web/facebook.png)no-repeat;
+}
+.icons a.gg{
+    background: url(_assets-web/google-+.png)no-repeat;
+}
+.icons a.ln{
+    background: url(_assets-web/linkedin.png)no-repeat;
+}
+.icons a.tw{
+    background: url(_assets-web/twitter.png)no-repeat;
+}
+.icons a.fb:hover {
+    background: url(_assets-web/facebook-hover.png)no-repeat;
+    display:initial;
+}
+.icons a.gg:hover {
+    background: url(_assets-web/google-+-hover.png)no-repeat;
+    display:initial;
+}
+.icons a.ln:hover { 
+    background: url(_assets-web/linkedin-hover.png)no-repeat;
+    display:initial;
+}
+.icons a.tw:hover {
+    background: url(_assets-web/twitter-hover.png)no-repeat;
+    display:initial;
+}
+div.contacts p.phoneNr{
+    color:rgb(114, 114, 10);
+    font-weight:bolder;
+}
+
+iframe{
+  
+   height:500px;
+   width:70%;
+  
+}
+@media (max-width: 800px) {
+    img{
+        position:relative;
+        left:0;
+    }
+    body{
+        font-size: 23%;
+    }
+}
+
+@media (max-width: 400px){
+    img{
+        position:relative;
+        left:0%;
+    }
+    body{
+        font-size:15px;
+        
+    }
+}
+@media (max-width: 1000px){
+    img{
+        position:relative;
+        left:0;
+    }
+} 
