@@ -6,13 +6,14 @@
 body{
     margin:0;
     height:100%;
+    
 }
 div.container{
     text-shadow: 0 0 20px black;
     text-align: center;
     background-size: cover;
     background-color: #e2b015;
-    background-image: url(_assets-web/imagine-de-fundal.png);
+    background-image: url(assets/imagine-de-fundal.png);
    
 }
 p.name{
@@ -54,7 +55,7 @@ div.leftSideFooter p{
 footer{
     background-color: black;
     position:relative;
-    height:155px;
+    height:185px;
 }
 div.contacts p{
     
@@ -86,31 +87,31 @@ div.contacts {
     /* display: inline-block; */
 }
 .icons a.fb{
-    background: url(_assets-web/facebook.png)no-repeat;
+    background: url(assets/facebook.png)no-repeat;
 }
 .icons a.gg{
-    background: url(_assets-web/google-+.png)no-repeat;
+    background: url(assets/google-+.png)no-repeat;
 }
 .icons a.ln{
-    background: url(_assets-web/linkedin.png)no-repeat;
+    background: url(assets/linkedin.png)no-repeat;
 }
 .icons a.tw{
-    background: url(_assets-web/twitter.png)no-repeat;
+    background: url(assets/twitter.png)no-repeat;
 }
 .icons a.fb:hover {
-    background: url(_assets-web/facebook-hover.png)no-repeat;
+    background: url(assets/facebook-hover.png)no-repeat;
     display:initial;
 }
 .icons a.gg:hover {
-    background: url(_assets-web/google-+-hover.png)no-repeat;
+    background: url(assets/google-+-hover.png)no-repeat;
     display:initial;
 }
 .icons a.ln:hover { 
-    background: url(_assets-web/linkedin-hover.png)no-repeat;
+    background: url(assets/linkedin-hover.png)no-repeat;
     display:initial;
 }
 .icons a.tw:hover {
-    background: url(_assets-web/twitter-hover.png)no-repeat;
+    background: url(assets/twitter-hover.png)no-repeat;
     display:initial;
 }
 div.contacts p.phoneNr{
